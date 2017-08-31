@@ -1,0 +1,179 @@
+/* Universal Style */
+body, html {
+	background-color: #000;
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #fff;
+	margin: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+p {
+	font-size: 1rem;
+}
+.all-caps {
+	text-transform: uppercase;
+}
+
+/* Site Header */
+.header-row {
+	display: flex;
+	align-items: center;
+	margin-top: 0.66rem;
+	margin-bottom: 0.66rem;
+}
+#logo {
+	height: 1.5rem;
+	margin-right: 1rem;
+	margin-left: 0.5rem;
+}
+
+/* Hero Section */
+.hero-img-row {
+	background-image: url("images/moto.jpeg");
+	background-size: cover;
+	height: 25rem;
+}
+.hero-content-block {
+	background-color: #000;
+	font-weight: bold;
+	width: 20rem;
+	padding: 2rem 0rem 1rem 3rem;
+	position: relative;
+	top: 9rem;
+}
+#headline {
+	font-size: 2rem;
+	margin-top: .25rem;
+}
+
+/* Menu Row */
+.red-container {
+	background-color: firebrick;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+}
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+}
+#item-menu {
+	display: none;
+}
+
+/* Store Container */
+.white-container {
+	background-color: #fff;
+	padding-top: 3rem;
+}
+.store-container {
+	display: flex;
+    justify-content: space-between;
+}
+.product-block {
+	border: 4px solid #000;
+	width: 30%;
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.product-block img {
+	max-width: 100%;
+	height: 9rem;
+    margin-bottom: 2rem;
+}
+#glasses img {
+    margin: 3.64rem auto;
+    height: 67.375px;
+}
+
+.product-desc {
+	background-color: #000;
+	text-align: center;
+	width: 100%;
+    padding: 0.5rem 0rem;
+    margin-bottom: 0rem;
+}
+.store-info-row {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+	padding-bottom: 4rem;
+}
+.store-location, .store-hours {
+	width: 35%;
+}
+.store-info-block {
+	background-color: #000;
+	padding: 1rem 0rem 1rem 2rem;
+	margin-bottom: -0.5rem;
+}
+.text-black {
+	color: #000;
+}
+/* Footer */
+	footer {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
+@media only screen and (max-width: 1024px) {
+	#headline {
+		font-size: 1.5rem;
+	}
+	.menu-none, #glasses {
+		display: none;
+	}
+	#item-menu {
+		display: contents;
+	}
+	.menu-row {
+    	display: flex;
+    	justify-content: center;
+	}
+	.product-block {
+		width: 47%;
+	}
+}
+@media only screen and (max-width: 470px) {
+	.header-row {
+		margin: 0rem;
+	}
+	.hero-img-row {
+		height: 15rem;
+	}
+	.hero-content-block {
+		padding: 1rem 1rem 0.56rem 2rem;
+	}
+	#headline-sm {
+		font-size: 0.77rem;
+	}
+	#headline {
+		font-size: 1rem;
+	}
+	.store-container {
+		display: flex;
+    	justify-content: center;
+	}
+	#watch {
+		display: none;
+	}
+	.product-block {
+		width: 90%;
+	}
+	.store-info-row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.store-location, .store-hours {
+		width: 90%;
+	}
+	footer {
+		text-align: center;
+	}
+}
