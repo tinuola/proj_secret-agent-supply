@@ -1,15 +1,14 @@
-# Secret Agent Supply
-
-Responsive (Desktop, Tablet, Mobile) website.
-Built from scratch.
-No Bootstrap.
+## Secret Agent Supply
 
 *A Codecademy Pro Intensive Project.*
 
-#### Tools Used
+Responsive (Desktop, Tablet, Mobile) website. No Bootstrap.
+
+### Live Site 
+[tinuola.github.io/proj_secret-agent-supply/](https://tinuola.github.io/proj_secret-agent-supply/)
+
+### Tools
 * HTML5
 * CSS3
 * Flexbox
 * Media Queries
-
-[View Website Demo](https://tinuola.github.io/secret-agent-supply/)
